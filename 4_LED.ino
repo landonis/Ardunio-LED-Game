@@ -63,7 +63,7 @@ void Winner()
   timeTill = (timeTill/2)+20;
   int flashDelay = 200;
   Serial.print("VICTORY");
-  digitalWrite(2, HIGH);
+
   for(int i=0; i<10; i+=1)
   {
       digitalWrite(light2, LOW);
